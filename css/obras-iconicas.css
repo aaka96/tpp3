@@ -1,0 +1,62 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+
+  @font-face {
+    font-family: sensei;
+    src: url(../fonts/Sensei-Medium.ttf);
+}
+
+.sensei {
+    font-family: sensei;
+    font-size: 5.5em;
+}
+
+img{
+  max-height: 300px;
+}
+
+.obras-iconicas-titulo{
+  font-family: sensei;
+  font-size: 80px;
+  background-color: rgb(3 193 186);
+}
+html,body{
+  height: 90%;
+  scroll-behavior: smooth;
+}
+
+header{
+  background-image: url("../images/collage-surrealista.jpg");
+  height: 100%;
+  background-size: 100%;
+  background-size: cover;
+}
+
+nav{
+  font-family: sensei;
+}
+footer{
+  background-color: gainsboro;
+  font-size: xx-large;
+  height: 100px;
+  font-family: sensei;
+}
+
+footer > span{
+  margin-top: 50%;
+}
+.card-title {
+  font-family: sensei;
+}

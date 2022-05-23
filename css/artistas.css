@@ -1,0 +1,58 @@
+@font-face {
+    font-family: sensei;
+    src: url(../fonts/Sensei-Medium.ttf);
+}
+
+.sensei {
+    font-family: sensei;
+    font-size: 5.5em;
+}
+
+header {
+    background-image: url("../images/dali-obra.jpg");
+    height: 100%;
+    background-size: 100%;
+    background-size: cover;
+}
+
+.artista {
+    min-height: 600px !important;
+    width: 100% !important;
+    object-fit: cover;
+    transition: 0.5s all ease-in-out;
+    border: 1px solid black;
+}
+
+.artista:hover {
+    transform: scale(1.5);
+    min-height: 600px !important;
+    width: 100% !important;
+    transition: 0.5s all ease-in-out;
+
+}
+
+.artistas-titulo {
+    font-family: sensei;
+    font-size: 80px;
+    background-color: #a1bba0;
+}
+
+html,
+body {
+    height: 90%;
+    scroll-behavior: smooth;
+}
+
+nav {
+    font-family: sensei;
+}
+footer{
+    background-color: gainsboro;
+    font-size: xx-large;
+    height: 100px;
+    font-family: sensei;
+}
+
+footer > span{
+    margin-top: 50%;
+}

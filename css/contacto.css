@@ -1,0 +1,33 @@
+@font-face {
+    font-family: sensei;
+    src: url(../fonts/Sensei-Medium.ttf);
+}
+
+.sensei {
+    font-family: sensei;
+    font-size: 5.5em !important;
+}
+
+main {
+    background-color: #efbb3c;
+    height: 80%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+nav {
+    font-family: sensei;
+}
+footer{
+    background-color: gainsboro;
+    font-size: xx-large;
+    height: 100px;
+    font-family: sensei;
+}
+
+footer > span{
+    margin-top: 50%;
+}
